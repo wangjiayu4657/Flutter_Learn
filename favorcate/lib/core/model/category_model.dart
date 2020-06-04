@@ -1,7 +1,10 @@
+import 'dart:ui';
+
 class CategoryModel {
   String id;
   String title;
   String color;
+  Color cColor;
 
   CategoryModel({this.id, this.title, this.color});
 
@@ -9,6 +12,10 @@ class CategoryModel {
     id = json['id'];
     title = json['title'];
     color = json['color'];
+
+    //将字符串转成 16 进制数
+    var colorValue = int.parse(color,radix: 16);
+    cColor = Color(colorValue | 0xFF000000);
   }
 
   Map<String, dynamic> toJson() {

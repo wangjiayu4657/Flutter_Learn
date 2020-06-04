@@ -10,10 +10,10 @@ class JYTheme {
     primarySwatch: Colors.pink,
     canvasColor: Color.fromRGBO(255, 244, 222, 1.0),
     textTheme: TextTheme(
-      bodyText1: TextStyle(fontSize: bodySize),
-      headline1: TextStyle(fontSize: smallSize),
-      headline2: TextStyle(fontSize: normalSize),
-      headline3: TextStyle(fontSize: largerSize),
+      bodyText1: TextStyle(fontSize: bodySize,color: Colors.black87),
+      headline1: TextStyle(fontSize: smallSize,color: Colors.black87),
+      headline2: TextStyle(fontSize: normalSize,color: Colors.black87),
+      headline3: TextStyle(fontSize: largerSize,color: Colors.black87),
     ),
   );
 
@@ -21,10 +21,10 @@ class JYTheme {
     primarySwatch: Colors.grey,
     canvasColor: Color.fromRGBO(255, 24, 222, 1.0),
     textTheme: TextTheme(
-      bodyText1: TextStyle(fontSize: bodySize),
-      headline1: TextStyle(fontSize: smallSize),
-      headline2: TextStyle(fontSize: normalSize),
-      headline3: TextStyle(fontSize: largerSize),
+      bodyText1: TextStyle(fontSize: bodySize,color: Colors.black87),
+      headline1: TextStyle(fontSize: smallSize,color: Colors.black87),
+      headline2: TextStyle(fontSize: normalSize,color: Colors.black87),
+      headline3: TextStyle(fontSize: largerSize,color: Colors.black87),
     ),
   );
 }
